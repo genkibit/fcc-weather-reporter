@@ -1,0 +1,12 @@
+<div ng-controller="MainCtrl">
+  <div class='error' ng-if="main.error">
+    An error has occurred. Check your browser console for details.
+  </div>
+  <article>
+    <p>{{ main.location }}</p>
+    <div class="{{ main.loader }}"></div>
+    <i class="{{ main.icon }}"></i><span class="screen-reader">{{ main.summary }}</span>
+    <p id="temperature">{{ main.temp }} &#176;{{ main.unitsA }}<a ng-click="main.changeUnits()"> {{ main.unitsB }}</a></p>
+    <p>{{ main.windStr }} from {{ main.windDir }}</p>
+  </article>
+</div>
