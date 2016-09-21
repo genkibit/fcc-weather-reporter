@@ -45,7 +45,7 @@ angular.module('svcWeatherReport', [])
 
     // Calls Dark Sky Forcast API service (supply your own API key)
     // getWeatherData: function(lat, lon) {
-    //   var endpoint = 'https://api.forecast.io/forecast/{ API_KEY }/' + lat + ',' + lon + '?callback=JSON_CALLBACK';
+    //   var endpoint = 'https://api.forecast.net/forecast/{ API_KEY }/' + lat + ',' + lon + '?callback=JSON_CALLBACK';
 
     //   // Using promise chaining
     //   return $http.jsonp(endpoint)
