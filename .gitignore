@@ -1,5 +1,6 @@
 _ignore
 bower_components
 node_modules
-.tmp
+_dev/.tmp
+_dev/dist
 .DS_Store
